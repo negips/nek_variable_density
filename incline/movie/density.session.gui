@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Object name="VisIt">
+    <Field name="Version" type="string">3.1.2</Field>
+    <Object name="GUI">
+        <Object name="FileServerList">
+            <Field name="path" type="string">/home/prabal/workstation/git/density_variation/incline</Field>
+            <Field name="filter" type="string">*</Field>
+            <Field name="useCurrentDir" type="bool">true</Field>
+            <Field name="automaticFileGrouping" type="bool">true</Field>
+            <Field name="smartFileGrouping" type="bool">true</Field>
+            <Field name="showDotFiles" type="bool">false</Field>
+            <Object name="recentpaths">
+                <Field name="localhost" type="stringVector">"/home/prabal/workstation/git/density_variation/incline" </Field>
+            </Object>
+        </Object>
+        <Object name="AppearanceAttributes">
+            <Field name="useSystemDefault" type="bool">true</Field>
+            <Field name="background" type="string">#c0c0c0</Field>
+            <Field name="foreground" type="string">#000000</Field>
+            <Field name="fontName" type="string">Helvetica,12,-1,5,50,0,0,0,0,0</Field>
+            <Field name="style" type="string">gtk</Field>
+            <Field name="orientation" type="int">0</Field>
+            <Field name="defaultForeground" type="string">#000000</Field>
+            <Field name="defaultBackground" type="string">#efefef</Field>
+            <Field name="defaultFontName" type="string">"Sans Serif,9,-1,5,50,0,0,0,0,0"</Field>
+            <Field name="defaultStyle" type="string">Fusion</Field>
+            <Field name="defaultOrientation" type="int">0</Field>
+        </Object>
+        <Object name="Annotation">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">517</Field>
+            <Field name="height" type="int">782</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="activeTab" type="int">1</Field>
+        </Object>
+        <Field name="postWhenShown" type="bool">false</Field>
+        <Object name="Database correlation list">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">388</Field>
+            <Field name="height" type="int">445</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="File open">
+            <Field name="x" type="int">651</Field>
+            <Field name="y" type="int">271</Field>
+            <Field name="width" type="int">618</Field>
+            <Field name="height" type="int">458</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Information">
+            <Field name="x" type="int">706</Field>
+            <Field name="y" type="int">354</Field>
+            <Field name="width" type="int">507</Field>
+            <Field name="height" type="int">292</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Set save options">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">411</Field>
+            <Field name="height" type="int">792</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="View">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">366</Field>
+            <Field name="height" type="int">587</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="activeTab" type="int">1</Field>
+        </Object>
+        <Object name="MainWin">
+            <Field name="x" type="int">28</Field>
+            <Field name="y" type="int">32</Field>
+            <Field name="width" type="int">427</Field>
+            <Field name="height" type="int">1011</Field>
+            <Field name="SPLITTER_VALUES_V2" type="floatVector">0 0.8637912 0.1316686 </Field>
+        </Object>
+        <Object name="Contour plot attributes">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">498</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Pseudocolor plot attributes">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">527</Field>
+            <Field name="height" type="int">557</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Subset plot attributes">
+            <Field name="x" type="int">143</Field>
+            <Field name="y" type="int">134</Field>
+            <Field name="width" type="int">397</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Stagger operator attributes">
+            <Field name="x" type="int">45</Field>
+            <Field name="y" type="int">40</Field>
+            <Field name="width" type="int">364</Field>
+            <Field name="height" type="int">169</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Transform operator attributes">
+            <Field name="x" type="int">143</Field>
+            <Field name="y" type="int">134</Field>
+            <Field name="width" type="int">461</Field>
+            <Field name="height" type="int">440</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Field name="plotDatabases" type="stringVector">"localhost:/home/prabal/workstation/git/density_variation/incline/visincline.nek5000" "localhost:/home/prabal/workstation/git/density_variation/incline/incline.nek5000" </Field>
+        <Object name="TimeFormat">
+            <Field name="displayMode" type="string">Cycles</Field>
+            <Field name="precision" type="int">5</Field>
+        </Object>
+        <Field name="showSelectedFiles" type="bool">false</Field>
+        <Field name="allowFileSelectionChange" type="bool">true</Field>
+        <Field name="enableWarningMessagePopups" type="bool">true</Field>
+    </Object>
+</Object>

@@ -1,0 +1,49 @@
+!     Variables for Consistent integration evaluation
+
+      logical cyl_ifcyl             ! If we are doing Cylindrical Formulation
+
+      common /cylindrical_ls/ cyl_ifcyl
+
+      real cyl_radius(lx1,ly1,lz1,lelv)   ! Radius on M1
+      real cyl_radius2(lx2,ly2,lz2,lelv)  ! Radius on M2
+      common /cylindrical_rv/ cyl_radius,cyl_radius2
+
+      real cyl_wallx(2)       ! Top and bottom wall positions
+      real cyl_rady(2)        ! Inner and Outer cylinder Radii
+      real cyl_omega(2)       ! Inner and Outer Angular Rotation rates
+      real cyl_tc_ab(2)       ! Taylor Couette Solution parameters
+      real cyl_ta_num         ! Taylor Number
+      common /cyl_taylor_geom/ cyl_wallx,cyl_rady,cyl_omega,
+     $                         cyl_tc_ab,cyl_ta_num 
+
+
+!     Variables needed for the KTH Framework
+!---------------------------------------------------------------------- 
+!     Necessary variables (ids) 
+      integer cyl_id                ! Module id
+      integer cyl_sec_id            ! Section id
+      integer cyl_tmr_tot_id        ! total time id
+      integer cyl_tmr_ini_id        ! initialisation time id
+      integer cyl_log_id            ! Log id
+
+      common /cyl_frame_id/ cyl_id, cyl_sec_id, cyl_tmr_tot_id,
+     $                     cyl_tmr_ini_id, cyl_log_id
+
+!     Variable ids      
+      integer cyl_ifcyl_id          ! If Cylindrical id
+      integer cyl_omega1_id         ! Inner Omega id
+      integer cyl_omega2_id         ! Outer Omega id
+     
+      common /cyl_frame_varid/ cyl_ifcyl_id,cyl_omega1_id,
+     $                         cyl_omega2_id 
+
+      integer cyl_log               ! Log Level
+
+      common /cyl_frame_log/ cyl_log
+
+
+
+      character*(5) cyl_name
+      parameter (cyl_name='CYLIN')
+
+
